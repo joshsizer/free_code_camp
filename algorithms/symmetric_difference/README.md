@@ -5,10 +5,10 @@ The mathematical term symmetric difference (△ or ⊕) of two sets is the set o
 
 Symmetric difference is a binary operation, which means it operates on only two elements. So to evaluate an expression involving symmetric differences among three elements (A △ B △ C), you must complete one operation at a time. Thus, for sets A and B above, and C = {2, 3}, A △ B △ C = (A △ B) △ C = {1, 4} △ {2, 3} = {1, 2, 3, 4}.
 
-# Task:
+## Task:
 Create a function that takes two or more arrays and returns an array of their symmetric difference. The returned array must contain only unique values (no duplicates).
 
-# Tests:
+## Tests:
 sym([1, 2, 3], [5, 2, 1, 4]) should return [3, 4, 5].
 
 sym([1, 2, 3], [5, 2, 1, 4]) should contain only three elements.
