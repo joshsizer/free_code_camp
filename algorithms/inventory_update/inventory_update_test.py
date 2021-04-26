@@ -1,7 +1,18 @@
+"""
+Created on Sun Apr 25 2021
+
+Copyright (c) 2021 - Joshua Sizer
+
+This code is licensed under MIT license (see
+LICENSE for details)
+"""
+
 from inventory_update import inventory_update
 
 
 class TestInventoryUpdate:
+    """Test the inventory update function"""
+
     def test_inventory_update1(self):
         assert inventory_update(
             [

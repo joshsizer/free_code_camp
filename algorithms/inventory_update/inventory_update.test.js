@@ -1,3 +1,15 @@
+/*
+ * Created on Sun Apr 25 2021
+ *
+ * Copyright (c) 2021 - Joshua Sizer
+ *
+ * This code is licensed under MIT license (see
+ * LICENSE for details)
+ */
+
+/*
+ * Test the inventory update function
+ */
 const updateInventory = require("./inventory_update")
 
 test('updateInventory([[21, "Bowling Ball"], [2, "Dirty Sock"], [1, "Hair Pin"], [5, "Microphone"]], [[2, "Hair Pin"], [3, "Half-Eaten Apple"], [67, "Bowling Ball"], [7, "Toothpaste"]])', () => {
