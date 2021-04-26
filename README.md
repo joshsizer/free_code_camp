@@ -1,2 +1,13 @@
 # free_code_camp
 Solutions to problems found at freecodecamp.org
+
+## Testing suites
+
+### JavaCcript
+For JavaScript, I am using jest.
+Install nodejs and npm.
+Run the command:
+`sudo npm i jest -g`
+
+### Python
+For Python, I am using unittest.
