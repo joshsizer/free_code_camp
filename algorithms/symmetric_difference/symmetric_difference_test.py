@@ -3,8 +3,8 @@ Created on Sun Apr 25 2021
 
 Copyright (c) 2021 - Joshua Sizer
 
-This code is licensed under MIT license
-(see LICENSE for details)
+This code is licensed under MIT license (see
+LICENSE for details)
 """
 
 import unittest
@@ -13,9 +13,7 @@ from symmetric_difference import sym
 
 
 class TestSym(unittest.TestCase):
-    """Test the symmetric difference
-    function.
-    """
+    """Test the symmetric difference function."""
 
     def test_sym1(self):
         self.assertEqual(
