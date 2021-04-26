@@ -1,0 +1,24 @@
+{
+  "name": "inventory_update",
+  "version": "1.0.0",
+  "description": "Algorithm to do an inventory update.",
+  "main": "inventory_update.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshsizer/free_code_camp.git"
+  },
+  "keywords": [
+    "inventory",
+    "update",
+    "algorithm"
+  ],
+  "author": "Joshua Sizer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshsizer/free_code_camp/issues"
+  },
+  "homepage": "https://github.com/joshsizer/free_code_camp#readme"
+}

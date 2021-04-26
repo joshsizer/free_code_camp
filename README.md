@@ -10,4 +10,7 @@ Run the command:
 `sudo npm i jest -g`
 
 ### Python
-For Python, I am using unittest.
+For Python, I am using pytest.
+Install python and pip.
+Run the command:
+`pip install pytest`
