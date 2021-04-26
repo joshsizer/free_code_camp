@@ -3,7 +3,7 @@ Solutions to problems found at freecodecamp.org
 
 ## Testing suites
 
-### JavaCcript
+### JavaScript
 For JavaScript, I am using jest.
 Install nodejs and npm.
 Run the command:
