@@ -60,14 +60,14 @@ def sym_pairwise(arg1, arg2):
 
     # Add each element in arg1 to result as long
     # as the element is not in arg2 and not
-    # already in next.
+    # already in result.
     for element in arg1:
         if element not in arg2 and element not in result:
             result.append(element)
 
     # Add each element in arg2 to result as long
     # as the element is not in arg1 and not
-    # already in next.
+    # already in result.
     for element in arg2:
         if element not in arg1 and element not in result:
             result.append(element)

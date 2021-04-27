@@ -60,18 +60,18 @@ function sym(args) {
 function sym_pairwise(arg1, arg2) {
     let result = []
 
-    // Add each element in arg1 to next as long as
+    // Add each element in arg1 to result as long as
     // the element is not in arg2 and not already
-    // in next.
+    // in result.
     for (let element of arg1) {
         if (arg2.indexOf(element) < 0 && next.indexOf(element) < 0) {
             next.push(element)
         }
     }
 
-    // Add each element in arg2 to next as long as
+    // Add each element in arg2 to result as long as
     // the element is not in arg1 and not already
-    // in next.
+    // in result.
     for (let element of arg2) {
         if (arg1.indexOf(element) < 0 && next.indexOf(element) < 0) {
             next.push(element)
