@@ -8,8 +8,10 @@
  */
 
 /**
- * Add the inventory from arr2 to arr1.
+ * Add the inventory from the longer of arr2 and
+ * arr1 to the other.
  *
+ * (assuming arr1 is longer)
  * If an item exists in both arr1 and arr2, then
  * the quantity of the item is updated in arr1. If
  * an item exists in only arr2, then the item is
