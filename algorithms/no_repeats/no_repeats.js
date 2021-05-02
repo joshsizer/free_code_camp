@@ -45,6 +45,7 @@ function permAlone(str) {
     return count
 }
 
+
 /**
  * Generates all the permutations of a given
  * string.
