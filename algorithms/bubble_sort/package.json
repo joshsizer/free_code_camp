@@ -1,0 +1,23 @@
+{
+  "name": "bubble_sort",
+  "version": "1.0.0",
+  "description": "Bubble sort implementation.",
+  "main": "bubble_sort.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshsizer/free_code_camp.git"
+  },
+  "keywords": [
+    "bubble",
+    "sort"
+  ],
+  "author": "Joshua Sizer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshsizer/free_code_camp/issues"
+  },
+  "homepage": "https://github.com/joshsizer/free_code_camp#readme"
+}
