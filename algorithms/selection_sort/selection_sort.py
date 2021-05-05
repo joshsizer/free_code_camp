@@ -10,6 +10,8 @@ LICENSE for details)
 def selection_sort(arr):
     """Sort the given array using selection sort.
 
+    All cases is O(n^2).
+
     Arguments:
         arr: The array to sort.
 
