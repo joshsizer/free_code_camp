@@ -1,0 +1,23 @@
+{
+  "name": "quick_sort",
+  "version": "1.0.0",
+  "description": "Quick sort implementation.",
+  "main": "quick_sort.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshsizer/free_code_camp.git"
+  },
+  "keywords": [
+    "quick",
+    "sort"
+  ],
+  "author": "Joshua Sizer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshsizer/free_code_camp/issues"
+  },
+  "homepage": "https://github.com/joshsizer/free_code_camp#readme"
+}
