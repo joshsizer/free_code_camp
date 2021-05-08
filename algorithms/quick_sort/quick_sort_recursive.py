@@ -10,6 +10,17 @@ LICENSE for details)
 def quick_sort(arr, low=0, high=None):
     """Sort the given sub-array using quick sort.
 
+    Runtime is O(nlog(n)) on average. Worst case
+    is O(n^2). Each partition call is order O(n).
+
+    The number of partition calls will be about
+    log(n) with good choices of pivot. Random
+    pivots or static pivots on randomly ordered
+    datasets will tend to produce log(n) calls.
+    There are circumstances, though, where there
+    could be n partition calls, leading to the
+    O(n^2) runtime.
+
     Arguments:
         arr: The array to sort.
         low: The beginning index of the sub-array.

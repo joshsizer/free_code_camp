@@ -10,10 +10,21 @@ LICENSE for details)
 def quick_sort(arr):
     """Sort the given array using quick sort.
 
-    Arguments:
+    Runtime is O(nlog(n)) on average. Worst case
+    is O(n^2). Each partition call is order O(n).
+
+    The number of partition calls will be about
+    log(n) with good choices of pivot. Random
+    pivots or static pivots on randomly ordered
+    datasets will tend to produce log(n) calls.
+    There are circumstances, though, where there
+    could be n partition calls, leading to the
+    O(n^2) runtime.
+
+    Arguments: 
         arr: The array to sort.
 
-    Returns:
+    Returns: 
         The given array, arr, but sorted.
     """
     stack = [(0, len(arr) - 1)]
